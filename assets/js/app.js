@@ -1,7 +1,8 @@
 var classShop = angular.module('classShop',[
                                             'ngRoute',
                                             'shopServices',
-                                            'shopController'                                            
+                                            'shopController',
+                                            'shopFilters'                                            
                                             ]);
 
 classShop.config(['$routeProvider',function($routeProvider){
